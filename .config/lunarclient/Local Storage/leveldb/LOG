@@ -1,6 +1,0 @@
-2026/04/21-17:02:55.731 2a8b9 Reusing MANIFEST /home/surfiks/.config/lunarclient/Local Storage/leveldb/MANIFEST-000001
-2026/04/21-17:02:55.780 2a8b9 Recovering log #231
-2026/04/21-17:02:55.780 2a8b9 Reusing old log /home/surfiks/.config/lunarclient/Local Storage/leveldb/000231.log 
-2026/04/21-18:02:18.648 2a812 Level-0 table #236: started
-2026/04/21-18:02:18.654 2a812 Level-0 table #236: 24400 bytes OK
-2026/04/21-18:02:18.660 2a812 Delete type=0 #231

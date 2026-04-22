@@ -1,8 +1,0 @@
-2026-04-19 19:36:58.520 [info] Started local extension host with pid 5088.
-2026-04-19 19:37:01.358 [info] [perf] Render performance baseline is 14ms
-2026-04-19 19:37:44.897 [error] [File Watcher ('parcel')] Unexpected error: inotify_add_watch on '/home/surfiks/.cache/mozilla/firefox/fqi6kvjo.default-release/cache2/trash1868540474' failed: No such file or directory (EUNKNOWN) (path: /home/surfiks)
-2026-04-19 19:37:44.898 [error] [File Watcher (universal)] inotify_add_watch on '/home/surfiks/.cache/mozilla/firefox/fqi6kvjo.default-release/cache2/trash1868540474' failed: No such file or directory
-2026-04-19 19:42:19.503 [error] An unknown error occurred. Please consult the log for more details.
-2026-04-19 19:43:49.519 [error] An unknown error occurred. Please consult the log for more details.
-2026-04-19 19:44:08.303 [error] An unknown error occurred. Please consult the log for more details.
-2026-04-19 19:45:04.080 [error] An unknown error occurred. Please consult the log for more details.

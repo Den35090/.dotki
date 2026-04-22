@@ -1,8 +1,0 @@
-/* Твоя палитра — меняй HEX коды как хочешь */
-@define-color background #1a1b26;
-@define-color foreground #c0caf5;
-@define-color color7     #a9b1d6; /* Основной текст модулей */
-@define-color color9     #f7768e; /* Цвет при наведении (hover) */
-@define-color critical   #f53c3c;
-@define-color warning    #ffbe61;
-@define-color charging   #26A65B;
