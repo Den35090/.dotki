@@ -1,0 +1,59 @@
+configuration {
+    show-icons: false;
+}
+
+* {
+    /* Цвета C.C. */
+    bg: #0a0a0ae6;
+    green: #74D600;
+    fg: #ffffff;
+    
+    background-color: transparent;
+    text-color: @fg;
+    font: "JetBrainsMono Nerd Font 30";
+}
+
+window {
+    location: north;
+    anchor: north;
+    y-offset: 60px;
+    width: 700px;
+    height: 150px; /* Даем конский запас по высоте */
+    
+    background-color: @bg;
+    border: 3px;
+    border-color: @green;
+    border-radius: 20px;
+}
+
+mainbox {
+    children: [ listview ];
+    padding: 10px;
+}
+
+listview {
+    columns: 5;
+    lines: 1;
+    spacing: 20px;
+    layout: horizontal;
+    fixed-columns: true;
+}
+
+element {
+    padding: 20px 0px;
+    border-radius: 15px;
+    background-color: #1a1a1a; /* Тёмно-серый фон для кнопок, чтобы видеть границы */
+}
+
+element selected {
+    background-color: @green;
+    text-color: #000000;
+}
+
+element-text {
+    /* Принудительно красим текст в белый, если не выбрано */
+    text-color: inherit;
+    font: "JetBrainsMono Nerd Font 45"; /* Огромная иконка */
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+}

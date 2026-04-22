@@ -1,0 +1,54 @@
+/* Махиру: Стеклянный, холодный, мягкий */
+:root {
+    --bg-color: rgba(20, 25, 35, 0.6); /* Полупрозрачный темно-синий */
+    --card-bg: rgba(40, 50, 70, 0.4);   /* Еще прозрачнее для карточек */
+    --text-color: #d1e1f0;             /* Мягкий голубоватый текст */
+    --accent-color: #89b4fa;           /* Нежно-голубой акцент */
+    --border-radius: 15px;
+}
+
+.control-center {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5); 
+    height: 450px;
+    overflow-y: auto;
+    padding: 12px;
+    border-radius: var(--border-radius);
+    background: var(--bg-color);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    
+    /* Если хочешь, чтобы он выглядел "парящим", добавь тень */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.notification {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    margin: 8px 0;
+    padding: 12px;
+    color: var(--text-color);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.widget-mpris {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    padding: 12px;
+}
+
+button {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    color: var(--text-color);
+}
+/* Состояние, когда кнопка включена (активна) */
+.button.active {
+    background: #4a5c6d; /* Твой цвет фона для активной кнопки */
+    color: #ffffff;      /* Цвет иконки при активации */
+    border: 1px solid var(--accent-color);
+}
+
+button:hover {
+    background: var(--accent-color);
+    color: #000000;
+}

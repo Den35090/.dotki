@@ -1,0 +1,132 @@
+/*****----- Configuration -----*****/
+configuration {
+    modi:                       "drun";
+    show-icons:                 false;
+    display-drun:               "";
+    display-run:                "";
+    display-filebrowser:        "";
+    display-window:             "";
+    drun-display-format:        "{name}";
+    window-format:              "{w} · {c} · {t}";
+}
+
+/*****----- Global Properties -----*****/
+* {
+    /* Космическая палитра */
+    bg:             #050a14e6;
+    accent:         #60a5fa;      /* Небесно-голубой */
+    fg:             #e0e7ff;      /* Жемчужный */
+    
+    font:           "JetBrains Mono Bold 12";
+    background:     @bg;
+    foreground:     @fg;
+    selected:       @accent;
+    urgent:         #fb7185;
+    active:         @accent;
+}
+
+/*****----- Main Window -----*****/
+window {
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       600px;
+    height:                      400px;
+    enabled:                     true;
+    border:                      2px solid;
+    border-radius:               15px;
+    border-color:                @accent;
+    background-color:            @background;
+    cursor:                      "default";
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:                     true;
+    spacing:                     10px;
+    margin:                      0px;
+    padding:                     30px;
+    border:                      0px solid;
+    background-color:            transparent;
+    children:                    [ "inputbar", "message", "listview", "mode-switcher" ];
+}
+
+/*****----- Inputbar -----*****/
+inputbar {
+    enabled:                     true;
+    spacing:                     10px;
+    padding:                     0px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    children:                    [ "prompt", "entry" ];
+}
+
+prompt {
+    enabled:                     true;
+    background-color:            inherit;
+    text-color:                  @accent;
+}
+
+entry {
+    enabled:                     true;
+    background-color:            inherit;
+    text-color:                  inherit;
+    cursor:                      text;
+    placeholder:                 "search...";
+    placeholder-color:           #64748b;
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled:                     true;
+    columns:                     1;
+    lines:                       6;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    spacing:                     5px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+
+/*****----- Elements -----*****/
+element {
+    enabled:                     true;
+    spacing:                     8px;
+    padding:                     8px;
+    border-radius:               4px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    cursor:                      pointer;
+}
+
+element selected.normal {
+    background-color:            @accent;
+    text-color:                  #050a14;
+}
+
+element-text {
+    background-color:            transparent;
+    text-color:                  inherit;
+    vertical-align:              0.5;
+}
+
+/*****----- Mode Switcher -----*****/
+mode-switcher{
+    enabled:                     false;
+}
+
+/*****----- Message -----*****/
+message {
+    enabled:                     true;
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+
+textbox {
+    padding:                     8px;
+    border-radius:               4px;
+    background-color:            @background;
+    text-color:                  @foreground;
+}

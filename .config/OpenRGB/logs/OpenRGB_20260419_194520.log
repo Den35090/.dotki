@@ -1,0 +1,61 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20260419_194520
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: c.c.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for c.c
+0     |Info:    [ProfileManager] Found file: mahiru.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for mahiru
+53    |Info:    [ResourceManager] Initializing HID interfaces: Success
+53    |Info:    ------------------------------------------------------
+53    |Info:    |               Start device detection               |
+53    |Info:    ------------------------------------------------------
+67    |Info:    ------------------------------------------------------
+67    |Info:    |             Detecting I2C interfaces               |
+67    |Info:    ------------------------------------------------------
+67    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+67    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-10 Device 10DE:2D05 Subsystem: 1458:41B3
+67    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+67    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 10DE:2D05 Subsystem: 1458:41B3
+67    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 8086:7AA3 Subsystem: 1458:5001
+67    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 0000:0000 Subsystem: 0000:0000
+67    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-9 Device 10DE:2D05 Subsystem: 1458:41B3
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 10DE:2D05 Subsystem: 1458:41B3
+68    |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 0000:0000 Subsystem: 0000:0000
+68    |Info:    ------------------------------------------------------
+68    |Info:    |               Detecting I2C devices                |
+68    |Info:    ------------------------------------------------------
+455   |Info:    ------------------------------------------------------
+455   |Info:    |            Detecting I2C DIMM modules              |
+455   |Info:    ------------------------------------------------------
+456   |Info:    [ResourceManager] Detected occupied slot 1, bus 4, type Reserved
+461   |Info:    [ResourceManager] Detected occupied slot 3, bus 4, type Reserved
+481   |Info:    ------------------------------------------------------
+481   |Info:    |               Detecting I2C PCI devices            |
+481   |Info:    ------------------------------------------------------
+483   |Info:    ------------------------------------------------------
+483   |Info:    |               Detecting HID devices                |
+483   |Info:    ------------------------------------------------------
+536   |Info:    [ROYUAN 2.4G Wireless Keyboard] Registering RGB controller
+587   |Info:    [ROYUAN Epomaker RT80] Registering RGB controller
+587   |Info:    ------------------------------------------------------
+587   |Info:    |            Detecting libusb HID devices            |
+587   |Info:    ------------------------------------------------------
+608   |Info:    ------------------------------------------------------
+608   |Info:    |              Detecting other devices               |
+608   |Info:    ------------------------------------------------------
+629   |Info:    [ResourceManager] Calling Post-detection callbacks
+629   |Info:    ------------------------------------------------------
+629   |Info:    |                Detection completed                 |
+629   |Info:    ------------------------------------------------------
+6364  |Info:    [ProfileManager] Found file: mahiru.orp attempting to validate header
+6364  |Info:    [ProfileManager] Valid v5 profile found for mahiru
+35673 |Info:    [ProfileManager] Found file: c.c.orp attempting to validate header
+35673 |Info:    [ProfileManager] Valid v5 profile found for c.c
+49873 |Info:    [ProfileManager] Found file: c.c.orp attempting to validate header
+49874 |Info:    [ProfileManager] Valid v5 profile found for c.c
+49874 |Info:    [ProfileManager] Found file: mahiru.orp attempting to validate header
+49874 |Info:    [ProfileManager] Valid v5 profile found for mahiru

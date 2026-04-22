@@ -1,0 +1,88 @@
+/* --- ТЕМА MAHIRU: Стеклянная, холодная, мягкая --- */
+
+:root {
+    --bg-color: rgba(20, 25, 35, 0.7);       /* Глубокий темно-синий */
+    --card-bg: rgba(40, 50, 70, 0.5);        /* Стеклянные карточки */
+    --text-color: #d1e1f0;                   /* Светло-голубой текст */
+    --accent-color: #89b4fa;                 /* Нежно-голубой акцент */
+    --border-radius: 15px;
+    --shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Общий вид Центра Управления */
+.control-center {
+    background: var(--bg-color);
+    backdrop-filter: blur(15px); /* Эффект размытия (стекло) */
+    border-radius: var(--border-radius);
+    padding: 12px;
+    box-shadow: var(--shadow);
+    height: 450px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+/* Уведомления */
+.notification {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    margin: 8px 0;
+    padding: 12px;
+    color: var(--text-color);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Медиаплеер */
+.widget-mpris {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    padding: 12px;
+    color: var(--text-color);
+}
+
+/* --- КНОПКИ (СЕТКА) --- */
+.widget-buttons-grid {
+    padding: 5px;
+}
+
+/* Стандартный стиль кнопок */
+.widget-buttons-grid > button {
+    background: rgba(255, 255, 255, 0.05) !important;
+    color: var(--text-color) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 10px !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Стиль при наведении */
+.widget-buttons-grid > button:hover {
+    background: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* СТИЛЬ АКТИВНОЙ КНОПКИ (Мут и другие) */
+/* Этот код заставит кнопку менять цвет, когда она "активна" */
+.widget-buttons-grid > button.active {
+    background: var(--accent-color) !important;
+    color: #000000 !important;
+    border: 1px solid var(--accent-color) !important;
+}
+.widget-buttons-grid > button:checked,
+.widget-buttons-grid > button[active="true"] {
+    background: var(--accent-color) !important;
+    color: #1e1e2e !important; /* Темный текст на светлом фоне */
+    border: 1px solid var(--accent-color) !important;
+    box-shadow: 0 0 12px rgba(137, 180, 250, 0.5) !important;
+}
+
+/* Другие виджеты (Громкость/Яркость) */
+.widget-volume, .widget-backlight {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    color: var(--text-color);
+    margin-bottom: 8px;
+}
+
+/* Текст заголовков */
+label {
+    color: var(--text-color);
+}

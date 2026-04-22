@@ -1,0 +1,54 @@
+configuration {
+    show-icons: false;
+}
+
+window {
+    location: north;
+    anchor: north;
+    y-offset: 60px;
+    width: 750px;
+    background-color: #0a0a0ae6;
+    border: 3px;
+    border-color: #74D600;
+    border-radius: 20px;
+}
+
+mainbox {
+    background-color: transparent;
+    children: [ listview ];
+}
+
+listview {
+    background-color: transparent;
+    columns: 5;
+    lines: 1;
+    spacing: 15px;
+    padding: 20px;
+    scrollbar: false;
+    fixed-columns: true;
+}
+
+element {
+    background-color: #0d0d0d;
+    border: 1px;
+    border-color: #74D600;
+    border-radius: 15px;
+    padding: 25px 0px; /* Только вертикальный падинг */
+}
+
+element-text {
+    background-color: transparent;
+    text-color: #74D600; /* ПРЯМОЙ ЦВЕТ ТУТ */
+    font: "JetBrainsMono Nerd Font 45";
+    expand: true;
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+}
+
+element selected {
+    background-color: #74D600;
+}
+
+element selected element-text {
+    text-color: #000000; /* При выборе станет черным */
+}

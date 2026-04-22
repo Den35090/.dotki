@@ -1,0 +1,58 @@
+configuration {
+    show-icons: false;
+}
+
+* {
+    bg: #0a0a0ae6;
+    green: #74D600;
+    fg: #ffffff;
+    background-color: transparent;
+    text-color: @fg;
+    font: "JetBrainsMono Nerd Font 20";
+}
+
+window {
+    location: north;
+    anchor: north;
+    y-offset: 60px;
+    
+    width: 650px;
+    /* Убрал фиксированную высоту, теперь окно растет за контентом */
+    
+    background-color: @bg;
+    border: 2px;
+    border-color: @green;
+    border-radius: 15px;
+}
+
+mainbox {
+    children: [ listview ];
+    padding: 20px;
+}
+
+listview {
+    columns: 5;
+    lines: 1;
+    spacing: 20px;
+    cycle: true;
+    dynamic: true;
+    layout: horizontal;
+}
+
+element {
+    /* Падинги только по бокам, чтобы не распирало в высоту */
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+element selected {
+    background-color: @green;
+    text-color: #000000;
+}
+
+element-text {
+    font: "JetBrainsMono Nerd Font 35"; /* Размер самой иконки */
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+    cursor: pointer;
+}

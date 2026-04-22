@@ -1,0 +1,10 @@
+{"level":"info","logFile":"/home/surfiks/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-04-06T19:30:20+03:00","message":"Enabling logging"}
+{"level":"info","time":"2026-04-06T19:30:20+03:00","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-04-06T19:30:20+03:00","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-04-06T19:30:20+03:00","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-04-06T19:30:22+03:00","message":"Stopping firewall"}
+{"level":"info","logFile":"/home/surfiks/.config/leap/systray.log","hint":"you can change the log level with env LOG_LEVEL=INFO|DEBUG|TRACE","time":"2026-04-06T19:38:26+03:00","message":"Enabling logging"}
+{"level":"info","time":"2026-04-06T19:38:26+03:00","message":"Not autostarting OpenVPN"}
+{"level":"info","url":"https://downloads.leap.se/RiseupVPN/linux/lastver","time":"2026-04-06T19:38:27+03:00","message":"Checking for updates"}
+{"level":"info","updateAvailable":false,"time":"2026-04-06T19:38:27+03:00","message":"Sucessfully checked if there is an update"}
+{"level":"info","time":"2026-04-06T19:38:28+03:00","message":"Stopping firewall"}

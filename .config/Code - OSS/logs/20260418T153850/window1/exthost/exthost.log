@@ -1,0 +1,283 @@
+2026-04-18 15:38:51.749 [info] Extension host with pid 19608 started
+2026-04-18 15:38:51.749 [info] Skipping acquiring lock for /home/surfiks/.config/Code - OSS/User/workspaceStorage/36989f12283e5b71cae71fb506a45a24.
+2026-04-18 15:38:51.845 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-04-18 15:38:51.868 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-04-18 15:38:52.001 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-04-18 15:38:52.004 [info] ExtensionService#_doActivateExtension lazyvscode-theme.lazyvscode-theme, startup: true, activationEvent: '*'
+2026-04-18 15:38:52.016 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-04-18 15:38:52.054 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-04-18 15:38:52.148 [info] Eager extensions activated
+2026-04-18 15:38:52.169 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-04-18 15:38:52.170 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-04-18 15:38:52.185 [info] ExtensionService#_doActivateExtension unthrottled.doki-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-04-18 15:38:52.192 [error] Activating extension unthrottled.doki-theme failed due to an error:
+2026-04-18 15:38:52.192 [error] Error: ENOENT: no such file or directory, scandir '/mnt/c/Users'
+	at Object.readdirSync (node:fs:1597:26)
+	at t.readdirSync (node:electron/js2c/node_init:2:16044)
+	at resolveWorkbench (/home/surfiks/.vscode-oss/extensions/unthrottled.doki-theme-88.1.15-universal/out/ENV.js:23:32)
+	at Object.<anonymous> (/home/surfiks/.vscode-oss/extensions/unthrottled.doki-theme-88.1.15-universal/out/ENV.js:28:30)
+	at Module._compile (node:internal/modules/cjs/loader:1714:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1848:10)
+	at Module.load (node:internal/modules/cjs/loader:1448:32)
+	at Module._load (node:internal/modules/cjs/loader:1270:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at r._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:821:6589)
+	at e._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:639:28611)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:631:27767)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at Object.<anonymous> (/home/surfiks/.vscode-oss/extensions/unthrottled.doki-theme-88.1.15-universal/out/StickerService.js:37:15)
+	at Module._compile (node:internal/modules/cjs/loader:1714:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1848:10)
+	at Module.load (node:internal/modules/cjs/loader:1448:32)
+	at Module._load (node:internal/modules/cjs/loader:1270:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at r._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:821:6589)
+	at e._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:639:28611)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:631:27767)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at Object.<anonymous> (/home/surfiks/.vscode-oss/extensions/unthrottled.doki-theme-88.1.15-universal/out/ThemeManager.js:37:26)
+	at Module._compile (node:internal/modules/cjs/loader:1714:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1848:10)
+	at Module.load (node:internal/modules/cjs/loader:1448:32)
+	at Module._load (node:internal/modules/cjs/loader:1270:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at r._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:821:6589)
+	at e._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:639:28611)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:631:27767)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at Object.<anonymous> (/home/surfiks/.vscode-oss/extensions/unthrottled.doki-theme-88.1.15-universal/out/extension.js:27:24)
+	at Module._compile (node:internal/modules/cjs/loader:1714:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1848:10)
+	at Module.load (node:internal/modules/cjs/loader:1448:32)
+	at Module._load (node:internal/modules/cjs/loader:1270:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at r._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:821:6589)
+	at e._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:639:28611)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:631:27767)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at lP._doLoadModule (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:670:1614)
+2026-04-18 15:39:12.832 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-04-18 15:39:12.838 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-04-18 15:39:12.849 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-04-18 15:39:12.905 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-04-18 15:39:26.062 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2026-04-18 15:39:26.986 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:39:27.000 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:39:27.016 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:39:27.031 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:39:27.046 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:41:03.299 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:41:03.312 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:41:03.328 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:41:03.342 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:41:03.358 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:43:42.690 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:43:42.708 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:43:42.726 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:44:09.513 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:44:09.527 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:44:09.545 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:44:09.558 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:44:09.573 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:47:09.208 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.210 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.210 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.211 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.211 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.211 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.211 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.211 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.244 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.245 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.246 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.246 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.246 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.246 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.246 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.247 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.259 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.261 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.261 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.261 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.261 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.261 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.261 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.261 [warning] TextEditor is closed/disposed
+2026-04-18 15:47:09.269 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model9)
+2026-04-18 15:47:09.269 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model9)
+2026-04-18 15:47:09.270 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model9)
+2026-04-18 15:47:09.271 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model9)
+2026-04-18 15:47:09.271 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model9)
+2026-04-18 15:47:09.271 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model9)
+2026-04-18 15:47:09.271 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model9)
+2026-04-18 15:47:09.271 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model9)
+2026-04-18 15:57:56.879 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:57:56.893 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:57:56.910 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2026-04-18 15:57:56.923 [error] Error: Illegal argument: line must be non-negative
+	at Fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:383:1610)
+	at new we (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:19632)
+	at new fe (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:497:21355)
+	at setTrailDecorations (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:101:19)
+	at Timeout._onTimeout (/home/surfiks/.vscode-oss/extensions/lazyvscode-theme.lazyvscode-theme-6.5.2-universal/follow-cursor.js:139:9)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)

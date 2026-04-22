@@ -1,0 +1,7 @@
+2026-04-21 17:59:56.449 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-21 17:59:56.794 [info] Started local extension host with pid 199810.
+2026-04-21 17:59:57.070 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-21 17:59:57.507 [error] Unable to create workbench contribution 'workbench.contrib.agentHostTerminal'. [createInstance] wbe depends on UNKNOWN service remoteAgentHostService.
+2026-04-21 17:59:57.785 [error] Error while getting the latest version for the extension GitHub.vscode-pull-request-github. TypeError: Failed to fetch
+2026-04-21 17:59:59.828 [info] [perf] Render performance baseline is 23ms
+2026-04-21 17:59:59.993 [error] An unknown error occurred. Please consult the log for more details.

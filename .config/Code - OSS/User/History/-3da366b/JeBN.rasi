@@ -1,0 +1,62 @@
+configuration {
+    show-icons: false;
+}
+
+* {
+    background-color: transparent;
+    /* Убираем все дефолтные отступы */
+    margin: 0;
+    padding: 0;
+}
+
+window {
+    location: north;
+    anchor: north;
+    y-offset: 60px;
+    width: 750px;
+    height: 140px; /* Фиксируем высоту окна, чтобы не дергалось */
+    background-color: #0a0a0ae6;
+    border: 3px;
+    border-color: #74D600;
+    border-radius: 20px;
+}
+
+mainbox {
+    children: [ listview ];
+}
+
+listview {
+    columns: 5;
+    lines: 1;
+    cycle: true;
+    padding: 20px;
+    spacing: 20px;
+    fixed-height: true;
+    scrollbar: false;
+}
+
+element {
+    /* Только вертикальный падинг, бока оставляем свободными для центровки */
+    padding: 20px 0px; 
+    border-radius: 15px;
+    background-color: #0d0d0d;
+    border: 1px;
+    border-color: #74D600;
+}
+
+/* Состояние ПО УМОЛЧАНИЮ (Зеленая иконка на черном фоне) */
+element-text {
+    text-color: #74D600;
+    font: "JetBrainsMono Nerd Font 45";
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+}
+
+/* Состояние ВЫБРАНО (Черная иконка на зеленом фоне) */
+element selected {
+    background-color: #74D600;
+}
+
+element selected element-text {
+    text-color: #0a0a0a;
+}

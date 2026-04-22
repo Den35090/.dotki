@@ -1,0 +1,126 @@
+/*****----- Configuration -----*****/
+configuration {
+    modi:                       "drun";
+    show-icons:                 false;
+    display-drun:               "";
+    display-run:                "";
+    display-filebrowser:        "";
+    display-window:             "";
+    drun-display-format:        "{name}";
+    window-format:              "{w} · {c} · {t}";
+}
+
+/*****----- Global Properties -----*****/
+* {
+    /* Фирменная палитра C.C. */
+    lime:           #C5E384;    /* Яркий лайм (акцент) */
+    gold:           #F5E6A3;    /* Золотистый (основной текст) */
+    bg:             #0A0A0AE6;  /* Почти черный, прозрачный */
+    urgent:         #D45D5D;    /* Бордовый */
+
+    font:           "JetBrains Mono Bold 12";
+    background:     @bg;
+    foreground:     @gold;
+    selected:       @lime;
+    active:         @lime;
+}
+
+/*****----- Main Window -----*****/
+window {
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       600px;
+    height:                      400px;
+    enabled:                     true;
+    border:                      2px solid;
+    border-radius:               15px;
+    border-color:                @selected;
+    background-color:            @background;
+    cursor:                      "default";
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:                     true;
+    spacing:                     10px;
+    margin:                      0px;
+    padding:                     30px;
+    border:                      0px solid;
+    background-color:            transparent;
+    children:                    [ "inputbar", "message", "listview", "mode-switcher" ];
+}
+
+/*****----- Inputbar -----*****/
+inputbar {
+    enabled:                     true;
+    spacing:                     10px;
+    padding:                     0px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    children:                    [ "prompt", "entry" ];
+}
+
+prompt {
+    enabled:                     true;
+    text-color:                  @selected;
+}
+textbox-prompt-colon {
+    enabled:                     true;
+    expand:                      false;
+    str:                         "::";
+    text-color:                  @selected;
+}
+entry {
+    enabled:                     true;
+    text-color:                  @foreground;
+    cursor:                      text;
+    placeholder:                 "search...";
+    placeholder-color:           #5D6B46;
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled:                     true;
+    columns:                     1;
+    lines:                       6;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    spacing:                     5px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+
+/*****----- Elements -----*****/
+element {
+    enabled:                     true;
+    spacing:                     8px;
+    padding:                     8px;
+    border-radius:               4px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    cursor:                      pointer;
+}
+
+/* Элемент при выборе: золотой текст становится черным на лаймовом фоне */
+element selected.normal {
+    background-color:            @selected;
+    text-color:                  #0A0A0A;
+}
+
+element-text {
+    background-color:            transparent;
+    text-color:                  inherit;
+    vertical-align:              0.5;
+}
+
+/*****----- Message -----*****/
+textbox {
+    padding:                     8px;
+    border-radius:               4px;
+    background-color:            @background;
+    text-color:                  @foreground;
+}

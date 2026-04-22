@@ -1,0 +1,14 @@
+2026-04-18 15:38:51.293 [info] Started local extension host with pid 19608.
+2026-04-18 15:38:54.073 [info] [perf] Render performance baseline is 16ms
+2026-04-18 15:38:55.046 [error] Error: The editor could not be opened because the file was not found.
+    at I6.handleSetInputError (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3736:92292)
+    at async I6.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3736:91301)
+    at async tRe.doSetInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1189:33639)
+    at async tRe.doOpenEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1189:31425)
+    at async tRe.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1189:30374)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1301:31273
+2026-04-18 15:39:27.037 [error] An unknown error occurred. Please consult the log for more details.
+2026-04-18 15:41:03.302 [error] An unknown error occurred. Please consult the log for more details.
+2026-04-18 15:43:42.718 [error] An unknown error occurred. Please consult the log for more details.
+2026-04-18 15:44:09.517 [error] An unknown error occurred. Please consult the log for more details.
+2026-04-18 15:57:56.882 [error] An unknown error occurred. Please consult the log for more details.

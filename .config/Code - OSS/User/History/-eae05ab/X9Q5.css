@@ -1,0 +1,10 @@
+/* Пример style.css для темы mahiru */
+@define-color bg-color #050a14;
+@define-color border-color #3bf644;
+@define-color text-color #e0e7ff;
+
+.notification {
+    background: @bg-color;
+    border: 2px solid @border-color;
+    color: @text-color;
+}

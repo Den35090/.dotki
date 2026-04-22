@@ -1,0 +1,2 @@
+2026-04-19 19:37:44.898 [error] [File Watcher ('parcel')] Unexpected error: inotify_add_watch on '/home/surfiks/.cache/mozilla/firefox/fqi6kvjo.default-release/cache2/trash1868540474' failed: No such file or directory (EUNKNOWN) (path: /home/surfiks)
+2026-04-19 19:37:44.898 [error] [File Watcher (universal)] inotify_add_watch on '/home/surfiks/.cache/mozilla/firefox/fqi6kvjo.default-release/cache2/trash1868540474' failed: No such file or directory

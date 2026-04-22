@@ -1,0 +1,121 @@
+/*****----- Configuration -----*****/
+configuration {
+    modi:                       "drun";
+    show-icons:                 false;
+    display-drun:               "";
+    display-run:                "";
+    display-filebrowser:        "";
+    display-window:             "";
+    drun-display-format:        "{name}";
+    window-format:              "{w} · {c} · {t}";
+}
+
+/*****----- Global Properties -----*****/
+* {
+    /* Палитра Махиру (Космос) */
+    bg:             #050a14e6;    /* Глубокий космический синий */
+    accent:         #60a5fa;      /* Небесно-голубой акцент */
+    fg:             #e0e7ff;      /* Жемчужный текст */
+    urgent:         #fb7185;      /* Мягкий розовый акцент */
+    
+    font:           "JetBrains Mono Bold 12";
+    
+    background:     @bg;
+    foreground:     @fg;
+    selected:       @accent;
+}
+
+/*****----- Main Window -----*****/
+window {
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       600px;
+    height:                      400px;
+    enabled:                     true;
+    border:                      2px solid;
+    border-radius:               15px;
+    border-color:                @accent;
+    background-color:            @background;
+    cursor:                      "default";
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:                     true;
+    spacing:                     10px;
+    padding:                     30px;
+    background-color:            transparent;
+    children:                    [ "inputbar", "message", "listview" ];
+}
+
+/*****----- Inputbar -----*****/
+inputbar {
+    enabled:                     true;
+    spacing:                     10px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    children:                    [ "prompt", "entry" ];
+}
+
+prompt {
+    enabled:                     true;
+    text-color:                  @accent;
+}
+
+entry {
+    enabled:                     true;
+    text-color:                  @foreground;
+    placeholder:                 "search...";
+    placeholder-color:           #475569;
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled:                     true;
+    columns:                     1;
+    lines:                       6;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    spacing:                     5px;
+    background-color:            transparent;
+}
+
+/*****----- Elements -----*****/
+element {
+    enabled:                     true;
+    padding:                     8px;
+    border-radius:               4px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    cursor:                      pointer;
+}
+
+element normal.normal {
+    background-color:            transparent;
+}
+
+element selected.normal {
+    background-color:            @accent;
+    text-color:                  #050a14;
+}
+
+element-text {
+    background-color:            transparent;
+    text-color:                  inherit;
+    vertical-align:              0.5;
+}
+
+/*****----- Message -----*****/
+message {
+    background-color:            transparent;
+}
+
+textbox {
+    padding:                     8px;
+    background-color:            @background;
+    text-color:                  @foreground;
+}

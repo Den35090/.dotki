@@ -1,0 +1,34 @@
+general { no_fade_in = false no_fade_out = false hide_cursor = true grace = 0 disable_loading 
+    = true immediate_render = true # Важно для NVIDIA, чтобы не мигало
+}
+background { monitor =
+    # ОБЯЗАТЕЛЬНО: укажи путь к картинке, не используй screenshot
+    path = /home/denis/Pictures/wall.png color = rgba(10, 10, 10, 1.0) blur_passes = 2
+}
+# Поле ввода (выезжает первым)
+input-field { monitor = size = 250, 50 outline_thickness = 3 dots_size = 0.33 dots_spacing = 
+    0.15 dots_center = true outer_color = rgb(116, 214, 0) inner_color = rgb(20, 20, 20) 
+    font_color = rgb(116, 214, 0) fade_on_empty = false placeholder_text = <i>Введіть 
+    пароль...</i>
+    
+    # Анимация проявления
+    fadeIn = 0.5
+    
+    position = 0, 80 halign = center valign = bottom
+}
+# Часы (появляются чуть позже, создавая эффект движения)
+label { monitor = text = $TIME color = rgb(116, 214, 0) font_size = 80 font_family = JetBrains 
+    Mono Nerd Font Bold
+    
+    # Задержка появления
+    fadeIn = 1.0
+    
+    position = 0, 160 halign = center valign = bottom
+}
+# Эквалайзер (внизу)
+label { monitor = text = cmd[update:100] echo "||ii||iI|i||iI|i||ii||" color = rgba(116, 214, 
+    0, 0.5) font_size = 18 font_family = JetBrains Mono Nerd Font
+    
+    fadeIn = 1.2
+    
+    position = 0, 30 halign = center valign = bottom

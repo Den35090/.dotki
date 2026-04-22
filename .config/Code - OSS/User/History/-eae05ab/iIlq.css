@@ -1,0 +1,29 @@
+/* --- ТЕМА C.C. (Code Geass) --- */
+
+/* Фон всего виджета */
+.control-center {
+    background: rgba(25, 25, 30, 0.8) !important;
+    border-radius: 15px !important;
+}
+
+/* Кнопки (основной стиль) */
+.widget-buttons-grid button {
+    background: rgba(255, 255, 255, 0.05) !important;
+    color: #98fb98 !important; /* Лаймовый цвет */
+    border: 1px solid rgba(152, 251, 152, 0.2) !important;
+    border-radius: 10px !important;
+}
+
+/* Кнопки при наведении */
+.widget-buttons-grid button:hover {
+    background: rgba(152, 251, 152, 0.1) !important;
+}
+
+/* АКТИВНОЕ СОСТОЯНИЕ (Мут) */
+.widget-buttons-grid button.active,
+.widget-buttons-grid button:checked {
+    background: #98fb98 !important; /* Лаймовый фон */
+    color: #1a1a1a !important;      /* Черный текст */
+    border: 1px solid #98fb98 !important;
+    box-shadow: 0 0 10px rgba(152, 251, 152, 0.6) !important;
+}

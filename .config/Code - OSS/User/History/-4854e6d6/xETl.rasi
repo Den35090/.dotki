@@ -1,0 +1,84 @@
+/*****----- Configuration -----*****/
+configuration {
+    modi:                       "drun";
+    show-icons:                 false;
+    display-drun:               "";
+    drun-display-format:        "{name}";
+}
+
+/*****----- Global Properties -----*****/
+* {
+    /* Цветовая палитра: глубокий космос + мягкий голубой */
+    bg:             #050a1480;    /* Полупрозрачный темно-синий */
+    bg-selected:    #1e293b80;    /* Немного светлее для выбора */
+    accent:         #60a5fa;      /* Небесно-голубой */
+    fg:             #e2e8f0;      /* Светло-серый, не режет глаз */
+    
+    font:           "JetBrains Mono Medium 13";
+    background-color: transparent;
+}
+
+/*****----- Main Window -----*****/
+window {
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    width:                       500px;
+    padding:                     20px;
+    border-radius:               25px;         /* Очень плавные углы */
+    background-color:            @bg;
+    border:                      1px solid;
+    border-color:                #ffffff10;    /* Еле заметная тонкая граница */
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    spacing:                     15px;
+    children:                    [ "inputbar", "listview" ];
+}
+
+/*****----- Inputbar -----*****/
+inputbar {
+    padding:                     10px;
+    border-radius:               15px;
+    background-color:            #ffffff05;
+    children:                    [ "prompt", "entry" ];
+}
+
+prompt {
+    enabled:                     true;
+    padding:                     0 10px 0 0;
+    text-color:                  @accent;
+    content:                     "surfiks@arch:";
+}
+
+entry {
+    placeholder:                 "Что ищем?";
+    placeholder-color:           #64748b;
+    text-color:                  @fg;
+}
+
+/*****----- Listview -----*****/
+listview {
+    columns:                     1;
+    lines:                       5;
+    fixed-height:                false;
+    spacing:                     5px;
+}
+
+/*****----- Elements -----*****/
+element {
+    padding:                     10px 15px;
+    border-radius:               12px;
+    text-color:                  @fg;
+}
+
+element selected.normal {
+    background-color:            @accent;
+    text-color:                  #050a14;
+}
+
+element-text {
+    background-color:            transparent;
+    text-color:                  inherit;
+}

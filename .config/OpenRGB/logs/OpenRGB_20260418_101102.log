@@ -1,0 +1,55 @@
+    OpenRGB v0.9+ (1.0rc2)
+    Commit:  from 
+    Launched: 20260418_101102
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: c.c.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for c.c
+0     |Info:    [ProfileManager] Found file: mahiru.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for mahiru
+2     |Info:    [ResourceManager] Initializing HID interfaces: Success
+2     |Info:    ------------------------------------------------------
+2     |Info:    |               Start device detection               |
+2     |Info:    ------------------------------------------------------
+7     |Info:    ------------------------------------------------------
+7     |Info:    |             Detecting I2C interfaces               |
+7     |Info:    ------------------------------------------------------
+8     |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-3 Device 0000:0000 Subsystem: 0000:0000
+8     |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-10 Device 10DE:2D05 Subsystem: 1458:41B3
+8     |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-1 Device 0000:0000 Subsystem: 0000:0000
+8     |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-8 Device 10DE:2D05 Subsystem: 1458:41B3
+8     |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-6 Device 8086:7AA3 Subsystem: 1458:5001
+8     |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-4 Device 0000:0000 Subsystem: 0000:0000
+8     |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-2 Device 0000:0000 Subsystem: 0000:0000
+8     |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+8     |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-9 Device 10DE:2D05 Subsystem: 1458:41B3
+8     |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-7 Device 10DE:2D05 Subsystem: 1458:41B3
+8     |Info:    [ResourceManager] Registering I2C interface: /dev/i2c-5 Device 0000:0000 Subsystem: 0000:0000
+8     |Info:    ------------------------------------------------------
+8     |Info:    |               Detecting I2C devices                |
+8     |Info:    ------------------------------------------------------
+393   |Info:    ------------------------------------------------------
+393   |Info:    |            Detecting I2C DIMM modules              |
+393   |Info:    ------------------------------------------------------
+394   |Info:    [ResourceManager] Detected occupied slot 1, bus 4, type Key: G
+395   |Info:    [ResourceManager] Detected occupied slot 3, bus 4, type Key: G
+395   |Info:    ------------------------------------------------------
+395   |Info:    |               Detecting I2C PCI devices            |
+395   |Info:    ------------------------------------------------------
+398   |Info:    ------------------------------------------------------
+398   |Info:    |               Detecting HID devices                |
+398   |Info:    ------------------------------------------------------
+451   |Info:    [ROYUAN 2.4G Wireless Keyboard] Registering RGB controller
+503   |Info:    [ROYUAN Epomaker RT80] Registering RGB controller
+503   |Info:    ------------------------------------------------------
+503   |Info:    |            Detecting libusb HID devices            |
+503   |Info:    ------------------------------------------------------
+523   |Info:    ------------------------------------------------------
+523   |Info:    |              Detecting other devices               |
+523   |Info:    ------------------------------------------------------
+535   |Info:    [ResourceManager] Calling Post-detection callbacks
+535   |Info:    ------------------------------------------------------
+535   |Info:    |                Detection completed                 |
+535   |Info:    ------------------------------------------------------
+535   |Info:    [ProfileManager] Profile loading: Succeeded for ROYUAN 2.4G Wireless Keyboard @ HID: /dev/hidraw3
+535   |Info:    [ProfileManager] Profile loading: Succeeded for ROYUAN Epomaker RT80 @ HID: /dev/hidraw8
